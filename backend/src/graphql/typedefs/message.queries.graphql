@@ -1,0 +1,11 @@
+type Query {
+  getMessages(chatRoomId: ID!): [Message]
+}
+
+type Mutation {
+  sendMessage(chatRoomId: ID!, sender: String!, content: String!): Message!
+}
+
+type Subscription {
+  messageSent(chatRoomId: ID!): Message
+}

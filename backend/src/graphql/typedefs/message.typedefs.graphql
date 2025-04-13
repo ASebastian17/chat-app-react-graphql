@@ -1,0 +1,10 @@
+scalar Date
+
+type Message {
+  _id: ID!
+  chatroom: ChatRoom
+  sender: String!
+  content: String!
+  createdAt: Date
+  updatedAt: Date
+}

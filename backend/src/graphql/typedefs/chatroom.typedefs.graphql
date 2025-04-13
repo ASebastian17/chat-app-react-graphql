@@ -1,0 +1,9 @@
+scalar Date
+
+type ChatRoom {
+  _id: ID!
+  name: String
+  messages: [Message]
+  createdAt: Date
+  updatedAt: Date
+}

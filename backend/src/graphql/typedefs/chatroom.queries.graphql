@@ -1,0 +1,7 @@
+type Query {
+  getChatRoom(id: ID!): ChatRoom
+}
+
+type Mutation {
+  createChatRoom(name: String!): ChatRoom!
+}

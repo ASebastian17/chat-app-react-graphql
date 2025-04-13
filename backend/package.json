@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon --ext ts --exec ts-node src/app.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.12.0",
+    "@graphql-tools/load-files": "^7.0.1",
+    "@graphql-tools/merge": "^9.0.24",
+    "@graphql-tools/schema": "^10.0.23",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "graphql": "^16.10.0",
+    "graphql-mongodb-subscriptions": "^1.0.1",
+    "graphql-ws": "^5.16.2",
+    "mongoose": "^8.13.2",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/node": "^22.14.0",
+    "@types/ws": "^8.18.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
